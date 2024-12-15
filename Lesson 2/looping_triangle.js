@@ -2,7 +2,7 @@
 let character = "#"
 let result = ""
 for (let i = 1; i <= 7; i++){
-    result = result + character;
+    result = result + character; // only can concantenate strings with +, not *
 console.log(result);
 }
     
